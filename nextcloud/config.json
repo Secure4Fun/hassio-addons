@@ -35,5 +35,5 @@
         "armv7",
         "i386"
     ],
-    "image": "secure4fun/{arch}nextcloud"
+    "image": "linux/{arch} nextcloud:stable"
 }
