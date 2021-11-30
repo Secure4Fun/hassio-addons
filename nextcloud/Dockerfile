@@ -29,17 +29,17 @@ ARG BUILD_VERSION
 # Labels
 LABEL \
     io.hass.name="Nextcloud" \
-    io.hass.description="Nextcloud add-on by Matthieu Petit" \
+    io.hass.description="Nextcloud add-on by Matthieu Petit, updated by Secure4fun" \
     io.hass.arch="${BUILD_ARCH}" \
     io.hass.type="addon" \
     io.hass.version=${BUILD_VERSION} \
     maintainer="Matthieu Petit <p.matthieu@me.com>" \
-    org.label-schema.description="Nextcloud add-on by Matthieu Petit" \
+    org.label-schema.description="Nextcloud add-on by Matthieu Petit, updated by Secure4Fun" \
     org.label-schema.build-date=${BUILD_DATE} \
     org.label-schema.name="Nextcloud" \
     org.label-schema.schema-version="1.0.0" \
-    org.label-schema.url="https://github.com/mtthp/hassio-addons" \
-    org.label-schema.usage="https://github.com/mtthp/hassio-addons/tree/master/nextcloud/README.md" \
+    org.label-schema.url="https://github.com/Secure4Fun/hassio-addons" \
+    org.label-schema.usage="https://github.com/Secure4Fun/hassio-addons/tree/master/nextcloud/README.md" \
     org.label-schema.vcs-ref=${BUILD_REF} \
-    org.label-schema.vcs-url="https://github.com/mtthp/hassio-addons/" \
-    org.label-schema.vendor="mtthp Hass.io Add-ons"
+    org.label-schema.vcs-url="https://github.com/Secure4Fun/hassio-addons/" \
+    org.label-schema.vendor="Secure4Fun Hass.io Add-ons"
