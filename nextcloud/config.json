@@ -35,5 +35,5 @@
         "armv7",
         "i386"
     ],
-    "image": "nextcloud:stable"
+    "image": "secure4fun/addon-nextcloud-{arch}"
 }
