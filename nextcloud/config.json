@@ -35,5 +35,5 @@
         "armv7",
         "i386"
     ],
-    "image": "/nextcloud"
+    "image": "hub.docker.com/_/nextcloud"
 }
