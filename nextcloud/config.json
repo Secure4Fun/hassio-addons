@@ -35,5 +35,5 @@
         "armv7",
         "i386"
     ],
-    "image": "ghcr.io/linuxserver/nextcloud"
+    "image": "/nextcloud"
 }
