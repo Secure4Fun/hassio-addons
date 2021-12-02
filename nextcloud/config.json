@@ -21,7 +21,7 @@
         "MYSQL_DATABASE": "nextcloud",
         "MYSQL_USER": "nextcloud",
         "MYSQL_PASSWORD": null,
-        "MYSQL_HOST": "addon_core_mariad",
+        "MYSQL_HOST": "addon_core_mariadb",
         "NEXTCLOUD_ADMIN_USER": "hassio",
         "NEXTCLOUD_ADMIN_PASSWORD": null,
         "NEXTCLOUD_TABLE_PREFIX": "nc_"
