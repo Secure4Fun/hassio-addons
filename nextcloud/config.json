@@ -1,6 +1,5 @@
 {
     "name": "Nextcloud",
-    "version": "stable",
     "slug": "nextcloud",
     "description": "Self-hosted file share and collaboration platform on the web",
     "url": "https://github.com/Secure4Fun/hassio-addons/tree/master/nextcloud",
