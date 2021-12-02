@@ -46,7 +46,6 @@ MYSQL_HOST: addon_core_mariadb                    # The Host of your SQL-Server.
 NEXTCLOUD_ADMIN_USER: someUsername                # The User for your Nextcloud-instance.
 NEXTCLOUD_ADMIN_PASSWORD: somePassword            # The Password for your Nextcloud-instance.
 NEXTCLOUD_TABLE_PREFIX: nc_                       # The Database prefix for your Nextcloud-instance.
-NEXTCLOUD_TRUSTED_DOMAINS: cloud.yourdomain.com   # The Domain for your Nextcloud-instance. Can also be a local IP for local access i.e: 192.168.178.5. Theses can be
 ```
 This list is not exhaustive. The documentation for env variables can be found at https://github.com/docker-library/docs/blob/master/nextcloud/README.md#auto-configuration-via-environment-variables.
 Do not forget to map a port to your host.
