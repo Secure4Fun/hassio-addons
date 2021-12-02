@@ -18,14 +18,13 @@
         "share:rw"
     ],
     "options": {
-        "MYSQL_DATABASE": null,
-        "MYSQL_USER": null,
+        "MYSQL_DATABASE": "nextcloud",
+        "MYSQL_USER": "nextcloud",
         "MYSQL_PASSWORD": null,
-        "MYSQL_HOST": null,
+        "MYSQL_HOST": "addon_core_mariad",
         "NEXTCLOUD_ADMIN_USER": "hassio",
         "NEXTCLOUD_ADMIN_PASSWORD": null,
-        "NEXTCLOUD_TABLE_PREFIX": "nc_",
-        "NEXTCLOUD_TRUSTED_DOMAINS": "hassio.local"
+        "NEXTCLOUD_TABLE_PREFIX": "nc_"
     },
     "schema": {
       "MYSQL_DATABASE": "str",
@@ -34,8 +33,7 @@
       "MYSQL_HOST": "str",
       "NEXTCLOUD_ADMIN_USER": "str",
       "NEXTCLOUD_ADMIN_PASSWORD": "str",
-      "NEXTCLOUD_TABLE_PREFIX": "str",
-      "NEXTCLOUD_TRUSTED_DOMAINS": "str"
+      "NEXTCLOUD_TABLE_PREFIX": "str"
   },
     "arch": [
         "aarch64",
