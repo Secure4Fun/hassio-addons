@@ -1,6 +1,6 @@
 {
     "name": "Nextcloud",
-    "version": "20.0.3",
+    "version": "stable",
     "slug": "nextcloud",
     "description": "Self-hosted file share and collaboration platform on the web",
     "url": "https://github.com/Secure4Fun/hassio-addons/tree/master/nextcloud",
@@ -33,7 +33,7 @@
         "amd64",
         "armhf",
         "armv7",
-        "i386"
+        #"i386"
     ],
     "image": "lscr.io/linuxserver/nextcloud"
 }
