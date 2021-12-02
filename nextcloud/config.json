@@ -45,5 +45,5 @@
         "amd64",
         "armhf"
     ],
-    "image": "lscr.io/linuxserver/nextcloud"
+    "image": "ghcr.io/linuxserver/nextcloud"
 }
