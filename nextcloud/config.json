@@ -31,6 +31,7 @@
         "NEXTCLOUD_TABLE_PREFIX": "nc_"
     },
     "schema": {
+      "log_level": "list(trace|debug|info|notice|warning|error|fatal)?",
       "MYSQL_DATABASE": "str",
       "MYSQL_USER": "str",
       "MYSQL_PASSWORD": "str",
