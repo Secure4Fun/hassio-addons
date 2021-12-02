@@ -9,10 +9,10 @@
     "startup": "services",
     "boot": "auto",
     "ports": {
-        "8081/tcp": null
+        "8081/tcp": "8081/tcp"
     },
     "ports_description": {
-        "80/tcp": "Web interface"
+        "8081/tcp": "Web interface"
     },
     "map": [
         "share:rw"
